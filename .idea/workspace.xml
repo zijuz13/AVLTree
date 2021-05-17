@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5649f43-75ad-40bc-8d01-e85e4ec9450f" name="Default Changelist" comment="" />
+    <list default="true" id="a5649f43-75ad-40bc-8d01-e85e4ec9450f" name="Default Changelist" comment="Created AVLTree and SplayTree">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dsa/example/AVLTreeTestDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dsa/example/AVLTreeTestDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dsa/impl/AVLTree$AVLPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dsa/impl/AVLTree$AVLPosition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dsa/impl/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dsa/impl/AVLTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dsa/example/AVLTreeSpeedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa/example/AVLTreeSpeedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dsa/example/AVLTreeTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa/example/AVLTreeTestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dsa/impl/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa/impl/AVLTree.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +24,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="0f2aaa6952f336ecc06f33822a50e61796f0c1f4" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -28,6 +47,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1scUQfSyeD3s7RypdPCKlAffCN8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -87,8 +107,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.AVLTreeTestDemo" />
-        <item itemvalue="Application.AVLTreeStructureTest" />
         <item itemvalue="Application.AVLTreeSpeedTest" />
+        <item itemvalue="Application.AVLTreeStructureTest" />
+        <item itemvalue="Application.AVLTreeTestDemo" />
+        <item itemvalue="Application.AVLTreeStructureTest" />
       </list>
     </recent_temporary>
   </component>
@@ -104,75 +126,110 @@
       <updated>1621171357153</updated>
       <workItem from="1621171364121" duration="22000" />
       <workItem from="1621171401891" duration="11081000" />
-      <workItem from="1621206674793" duration="4988000" />
+      <workItem from="1621206674793" duration="12281000" />
+      <workItem from="1621242548313" duration="4822000" />
     </task>
+    <task id="LOCAL-00001" summary="Created AVLTree and SplayTree">
+      <created>1621234138540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621234138540</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created AVLTree and SplayTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created AVLTree and SplayTree" />
   </component>
   <component name="WindowStateProjectService">
     <state x="384" y="120" key="#Project_Structure" timestamp="1621171442124">
       <screen x="0" y="25" width="1792" height="1030" />
     </state>
     <state x="384" y="120" key="#Project_Structure/0.25.1792.1030@0.25.1792.1030" timestamp="1621171442124" />
-    <state width="1748" height="389" key="GridCell.Tab.0.bottom" timestamp="1621210980867">
-      <screen x="0" y="25" width="1792" height="1027" />
+    <state width="1748" height="392" key="GridCell.Tab.0.bottom" timestamp="1621258573273">
+      <screen x="0" y="25" width="1792" height="1029" />
     </state>
-    <state width="1748" height="389" key="GridCell.Tab.0.bottom/0.25.1792.1027@0.25.1792.1027" timestamp="1621210980867" />
+    <state width="1748" height="474" key="GridCell.Tab.0.bottom/0.25.1792.1027@0.25.1792.1027" timestamp="1621243781070" />
+    <state width="1748" height="392" key="GridCell.Tab.0.bottom/0.25.1792.1029@0.25.1792.1029" timestamp="1621258573273" />
     <state width="1748" height="339" key="GridCell.Tab.0.bottom/0.25.1792.1030@0.25.1792.1030" timestamp="1621188299062" />
-    <state width="1748" height="339" key="GridCell.Tab.0.bottom/0.25.1792.1033@0.25.1792.1033" timestamp="1621188065027" />
-    <state width="1748" height="389" key="GridCell.Tab.0.center" timestamp="1621210980866">
-      <screen x="0" y="25" width="1792" height="1027" />
+    <state width="1748" height="389" key="GridCell.Tab.0.bottom/0.25.1792.1033@0.25.1792.1033" timestamp="1621234198442" />
+    <state width="1748" height="389" key="GridCell.Tab.0.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1621240696813" />
+    <state width="1748" height="392" key="GridCell.Tab.0.center" timestamp="1621258573272">
+      <screen x="0" y="25" width="1792" height="1029" />
     </state>
-    <state width="1748" height="389" key="GridCell.Tab.0.center/0.25.1792.1027@0.25.1792.1027" timestamp="1621210980866" />
+    <state width="1748" height="474" key="GridCell.Tab.0.center/0.25.1792.1027@0.25.1792.1027" timestamp="1621243781070" />
+    <state width="1748" height="392" key="GridCell.Tab.0.center/0.25.1792.1029@0.25.1792.1029" timestamp="1621258573272" />
     <state width="1748" height="339" key="GridCell.Tab.0.center/0.25.1792.1030@0.25.1792.1030" timestamp="1621188299061" />
-    <state width="1748" height="339" key="GridCell.Tab.0.center/0.25.1792.1033@0.25.1792.1033" timestamp="1621188065026" />
-    <state width="1748" height="389" key="GridCell.Tab.0.left" timestamp="1621210980866">
-      <screen x="0" y="25" width="1792" height="1027" />
+    <state width="1748" height="389" key="GridCell.Tab.0.center/0.25.1792.1033@0.25.1792.1033" timestamp="1621234198441" />
+    <state width="1748" height="389" key="GridCell.Tab.0.center/0.25.1792.1034@0.25.1792.1034" timestamp="1621240696812" />
+    <state width="1748" height="392" key="GridCell.Tab.0.left" timestamp="1621258573271">
+      <screen x="0" y="25" width="1792" height="1029" />
     </state>
-    <state width="1748" height="389" key="GridCell.Tab.0.left/0.25.1792.1027@0.25.1792.1027" timestamp="1621210980866" />
+    <state width="1748" height="474" key="GridCell.Tab.0.left/0.25.1792.1027@0.25.1792.1027" timestamp="1621243781069" />
+    <state width="1748" height="392" key="GridCell.Tab.0.left/0.25.1792.1029@0.25.1792.1029" timestamp="1621258573271" />
     <state width="1748" height="339" key="GridCell.Tab.0.left/0.25.1792.1030@0.25.1792.1030" timestamp="1621188299061" />
-    <state width="1748" height="339" key="GridCell.Tab.0.left/0.25.1792.1033@0.25.1792.1033" timestamp="1621188065026" />
-    <state width="1748" height="389" key="GridCell.Tab.0.right" timestamp="1621210980867">
-      <screen x="0" y="25" width="1792" height="1027" />
+    <state width="1748" height="389" key="GridCell.Tab.0.left/0.25.1792.1033@0.25.1792.1033" timestamp="1621234198441" />
+    <state width="1748" height="389" key="GridCell.Tab.0.left/0.25.1792.1034@0.25.1792.1034" timestamp="1621240696811" />
+    <state width="1748" height="392" key="GridCell.Tab.0.right" timestamp="1621258573272">
+      <screen x="0" y="25" width="1792" height="1029" />
     </state>
-    <state width="1748" height="389" key="GridCell.Tab.0.right/0.25.1792.1027@0.25.1792.1027" timestamp="1621210980867" />
+    <state width="1748" height="474" key="GridCell.Tab.0.right/0.25.1792.1027@0.25.1792.1027" timestamp="1621243781070" />
+    <state width="1748" height="392" key="GridCell.Tab.0.right/0.25.1792.1029@0.25.1792.1029" timestamp="1621258573272" />
     <state width="1748" height="339" key="GridCell.Tab.0.right/0.25.1792.1030@0.25.1792.1030" timestamp="1621188299061" />
-    <state width="1748" height="339" key="GridCell.Tab.0.right/0.25.1792.1033@0.25.1792.1033" timestamp="1621188065026" />
-    <state width="1748" height="137" key="GridCell.Tab.1.bottom" timestamp="1621210260364">
+    <state width="1748" height="389" key="GridCell.Tab.0.right/0.25.1792.1033@0.25.1792.1033" timestamp="1621234198442" />
+    <state width="1748" height="389" key="GridCell.Tab.0.right/0.25.1792.1034@0.25.1792.1034" timestamp="1621240696812" />
+    <state width="1748" height="135" key="GridCell.Tab.1.bottom" timestamp="1621243626672">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
-    <state width="1748" height="137" key="GridCell.Tab.1.bottom/0.25.1792.1027@0.25.1792.1027" timestamp="1621210260364" />
+    <state width="1748" height="135" key="GridCell.Tab.1.bottom/0.25.1792.1027@0.25.1792.1027" timestamp="1621243626672" />
     <state width="1748" height="316" key="GridCell.Tab.1.bottom/0.25.1792.1033@0.25.1792.1033" timestamp="1621187893141" />
-    <state width="1748" height="137" key="GridCell.Tab.1.center" timestamp="1621210260364">
+    <state width="1748" height="364" key="GridCell.Tab.1.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1621240683018" />
+    <state width="1748" height="135" key="GridCell.Tab.1.center" timestamp="1621243626671">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
-    <state width="1748" height="137" key="GridCell.Tab.1.center/0.25.1792.1027@0.25.1792.1027" timestamp="1621210260364" />
+    <state width="1748" height="135" key="GridCell.Tab.1.center/0.25.1792.1027@0.25.1792.1027" timestamp="1621243626671" />
     <state width="1748" height="316" key="GridCell.Tab.1.center/0.25.1792.1033@0.25.1792.1033" timestamp="1621187893141" />
-    <state width="1748" height="137" key="GridCell.Tab.1.left" timestamp="1621210260364">
+    <state width="1748" height="364" key="GridCell.Tab.1.center/0.25.1792.1034@0.25.1792.1034" timestamp="1621240683017" />
+    <state width="1748" height="135" key="GridCell.Tab.1.left" timestamp="1621243626671">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
-    <state width="1748" height="137" key="GridCell.Tab.1.left/0.25.1792.1027@0.25.1792.1027" timestamp="1621210260364" />
+    <state width="1748" height="135" key="GridCell.Tab.1.left/0.25.1792.1027@0.25.1792.1027" timestamp="1621243626671" />
     <state width="1748" height="316" key="GridCell.Tab.1.left/0.25.1792.1033@0.25.1792.1033" timestamp="1621187893140" />
-    <state width="1748" height="137" key="GridCell.Tab.1.right" timestamp="1621210260364">
+    <state width="1748" height="364" key="GridCell.Tab.1.left/0.25.1792.1034@0.25.1792.1034" timestamp="1621240683017" />
+    <state width="1748" height="135" key="GridCell.Tab.1.right" timestamp="1621243626671">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
-    <state width="1748" height="137" key="GridCell.Tab.1.right/0.25.1792.1027@0.25.1792.1027" timestamp="1621210260364" />
+    <state width="1748" height="135" key="GridCell.Tab.1.right/0.25.1792.1027@0.25.1792.1027" timestamp="1621243626671" />
     <state width="1748" height="316" key="GridCell.Tab.1.right/0.25.1792.1033@0.25.1792.1033" timestamp="1621187893141" />
+    <state width="1748" height="364" key="GridCell.Tab.1.right/0.25.1792.1034@0.25.1792.1034" timestamp="1621240683017" />
     <state x="405" y="176" key="SettingsEditor" timestamp="1621186252517">
       <screen x="0" y="25" width="1792" height="1033" />
     </state>
     <state x="405" y="176" key="SettingsEditor/0.25.1792.1033@0.25.1792.1033" timestamp="1621186252517" />
     <state x="405" y="176" key="SettingsEditor/0.25.1792.1034@0.25.1792.1034" timestamp="1621186192063" />
+    <state x="496" y="275" key="Vcs.Push.Dialog.v2" timestamp="1621234171492">
+      <screen x="0" y="25" width="1792" height="1033" />
+    </state>
+    <state x="496" y="275" key="Vcs.Push.Dialog.v2/0.25.1792.1033@0.25.1792.1033" timestamp="1621234171492" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+          <condition expression="null==position.element()" language="JAVA" />
           <url>file://$PROJECT_DIR$/src/dsa/impl/AVLTree.java</url>
-          <line>107</line>
-          <option name="timeStamp" value="7" />
+          <line>24</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/Assignment1-Library.jar!/dsa/impl/ProperLinkedBinaryTree.class</url>
+          <line>12</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -3,12 +3,17 @@ package dsa.impl;
 import dsa.iface.IIterator;
 import dsa.iface.IPosition;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 public class AVLTree<T extends Comparable<T>> extends BinarySearchTree<T> {
+   public AVLTree(){
+      super();
+   }
    @Override
    public void insert( T element ) {
       // TODO: Implement the insert(...) method.
-      this.insertRecursively(this.root,element);
-//      this.recalculateHeights();
+      this.insertRecursively(this.root(),element);
    }
    //Use Recursion to insert the IPosition nodes and check if the subTree is balanced every time we successfully balance the
    //previous nodes and modify the heights simultaneously
@@ -35,15 +40,29 @@ public class AVLTree<T extends Comparable<T>> extends BinarySearchTree<T> {
    @Override
    public void remove( T element ) {
       // TODO: Implement the remove(...) method.
+     this.removeRecursively(this.root(),element);
    }
-
+   private void removeRecursively(IPosition<T> position,T element){
+      AVLPosition position1 = (AVLPosition) position;
+      //No element is found
+      if(this.isExternal(position1))return;
+      int minus=position1.element().compareTo(element);
+      if(0==minus){
+         this.remove(position1);
+      }else if(minus>0){
+         this.removeRecursively(this.left(position1),element);
+      }else{
+         this.removeRecursively(this.right(position1),element);
+      }
+      this.restructure(position1);
+   }
    private void restructure( IPosition<T> x ) {
       // Implement the restructure(...) method.
       AVLPosition x1 = (AVLPosition) x;
       int leftHeight=this.height(x1.left);
       int rightHeight=this.height(x1.right);
-      //Only after rotating this avl tree should we recalculate the heights of the nodes
       boolean isRotated=false;
+      //Only after rotating this avl tree should we recalculate the heights of the nodes
       if(leftHeight-rightHeight>1){
          isRotated=true;
          if(this.height(x1.left.left)<this.height(x1.left.right)){
@@ -58,37 +77,55 @@ public class AVLTree<T extends Comparable<T>> extends BinarySearchTree<T> {
          leftRotate(x1);
       }
       if(isRotated){
-         leftHeight=this.height(x1.left);
-         rightHeight=this.height(x1.right);
+         this.calculateHeights(x1);
+      }else{
+         x1.height=Math.max(leftHeight,rightHeight)+1;
       }
-      x1.height=Math.max(leftHeight,rightHeight)+1;
+   }
+   //Inorder Traversal
+   public void calculateHeights(BTPosition position){
+      Deque<BTPosition> stack=new LinkedList<>();
+      BTPosition node=position;
+      while(this.isInternal(node)||!stack.isEmpty()){
+         while(this.isInternal(node)){
+            stack.push(node);
+            node=node.left;
+         }
+         node=stack.pop();
+         ((AVLPosition)node).height=this.height(node);
+         node=node.right;
+      }
    }
    private void leftRotate(BTPosition position){
-      BTPosition newNode = this.newPosition(position.element, position);
+      BTPosition newNode = this.newPosition(position.element(), position);
+     newNode.left=newPosition(null,null);
+     newNode.right=newPosition(null,null);
       if(null!=position.left)
-      position.left.parent=newNode;
+         position.left.parent=newNode;
       newNode.left=position.left;
       if(null!=position.right.left)
-      position.right.left.parent=newNode;
+         position.right.left.parent=newNode;
       newNode.right=position.right.left;
       position.element=position.right.element;
       if(null!=position.right.right)
-      position.right.right.parent=position;
+         position.right.right.parent=position;
       position.right=position.right.right;
       position.left=newNode;
    }
    private void rightRotate(BTPosition position){
       BTPosition newNode = this.newPosition(position.element, position);
+      newNode.left=newPosition(null,null);
+      newNode.right=newPosition(null,null);
       if(null!=position.right)
-      position.right.parent=newNode;
+         position.right.parent=newNode;
       newNode.right=position.right;
       if(null!=position.left.right)
-      position.left.right.parent=newNode;
+         position.left.right.parent=newNode;
       newNode.left=position.left.right;
       position.element=position.left.element;
       position.right=newNode;
       if(null!=position.left.left)
-      position.left.left.parent=position;
+         position.left.left.parent=position;
       position.left=position.left.left;
    }
    //To check if this AVLTree has been balance
@@ -100,15 +137,15 @@ public class AVLTree<T extends Comparable<T>> extends BinarySearchTree<T> {
       return isBalanced(position.left)&&judgeIfBalanced(position)&&isBalanced(position.right);
    }
    private boolean judgeIfBalanced(BTPosition position){
-      return Math.abs(this.height1(position.left)-this.height1(position.right))<=1;
+      return Math.abs(this.height(position.left)-this.height(position.right))<=1;
    }
    //Calculate the height of a single node
    private int height(BTPosition position){
-      if(this.isExternal(position))return 0;
+      if(null==position||this.isExternal(position))return 0;
       return Math.max(this.height(position.left),this.height(position.right))+1;
    }
    private int height1(BTPosition position){
-return ((AVLPosition)position).height;
+      return ((AVLPosition)position).height;
    }
    @Override
    protected BTPosition newPosition( T element, BTPosition parent ) {

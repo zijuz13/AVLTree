@@ -76,16 +76,16 @@ public class AVLTreeSpeedTest {
       Collections.shuffle( values, r );
 
       // record the start again
-//      start = System.currentTimeMillis();
+      start = System.currentTimeMillis();
 
       // get 10% of the values in this list and remove from the tree
-//      values = values.subList( 0, values.size() / 10 );
-//      for ( int v : values ) {
-//         t.remove( v );
-//      }
+      values = values.subList( 0, values.size() / 10 );
+      for ( int v : values ) {
+         t.remove( v );
+      }
 
       // print the last time
-//      end = System.currentTimeMillis();
-//      System.out.println( "Removing: " + ( end - start ) );
+      end = System.currentTimeMillis();
+      System.out.println( "Removing: " + ( end - start ) );
    }
 }
