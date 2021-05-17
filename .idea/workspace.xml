@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5649f43-75ad-40bc-8d01-e85e4ec9450f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/Library/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="/Library/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1scUQfSyeD3s7RypdPCKlAffCN8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Application.AVLTreeTestDemo">
+    <configuration name="AVLTreeSpeedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.example.AVLTreeSpeedTest" />
+      <module name="Assignment1-Source" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dsa.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AVLTreeStructureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.example.AVLTreeStructureTest" />
+      <module name="Assignment1-Source" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dsa.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AVLTreeTestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.example.AVLTreeTestDemo" />
+      <module name="Assignment1-Source" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dsa.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AVLTreeTestDemo" />
+        <item itemvalue="Application.AVLTreeStructureTest" />
+        <item itemvalue="Application.AVLTreeSpeedTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5649f43-75ad-40bc-8d01-e85e4ec9450f" name="Default Changelist" comment="" />
+      <created>1621171357153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621171357153</updated>
+      <workItem from="1621171364121" duration="22000" />
+      <workItem from="1621171401891" duration="11081000" />
+      <workItem from="1621206674793" duration="4988000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="384" y="120" key="#Project_Structure" timestamp="1621171442124">
+      <screen x="0" y="25" width="1792" height="1030" />
+    </state>
+    <state x="384" y="120" key="#Project_Structure/0.25.1792.1030@0.25.1792.1030" timestamp="1621171442124" />
+    <state width="1748" height="389" key="GridCell.Tab.0.bottom" timestamp="1621210980867">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="1748" height="389" key="GridCell.Tab.0.bottom/0.25.1792.1027@0.25.1792.1027" timestamp="1621210980867" />
+    <state width="1748" height="339" key="GridCell.Tab.0.bottom/0.25.1792.1030@0.25.1792.1030" timestamp="1621188299062" />
+    <state width="1748" height="339" key="GridCell.Tab.0.bottom/0.25.1792.1033@0.25.1792.1033" timestamp="1621188065027" />
+    <state width="1748" height="389" key="GridCell.Tab.0.center" timestamp="1621210980866">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="1748" height="389" key="GridCell.Tab.0.center/0.25.1792.1027@0.25.1792.1027" timestamp="1621210980866" />
+    <state width="1748" height="339" key="GridCell.Tab.0.center/0.25.1792.1030@0.25.1792.1030" timestamp="1621188299061" />
+    <state width="1748" height="339" key="GridCell.Tab.0.center/0.25.1792.1033@0.25.1792.1033" timestamp="1621188065026" />
+    <state width="1748" height="389" key="GridCell.Tab.0.left" timestamp="1621210980866">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="1748" height="389" key="GridCell.Tab.0.left/0.25.1792.1027@0.25.1792.1027" timestamp="1621210980866" />
+    <state width="1748" height="339" key="GridCell.Tab.0.left/0.25.1792.1030@0.25.1792.1030" timestamp="1621188299061" />
+    <state width="1748" height="339" key="GridCell.Tab.0.left/0.25.1792.1033@0.25.1792.1033" timestamp="1621188065026" />
+    <state width="1748" height="389" key="GridCell.Tab.0.right" timestamp="1621210980867">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="1748" height="389" key="GridCell.Tab.0.right/0.25.1792.1027@0.25.1792.1027" timestamp="1621210980867" />
+    <state width="1748" height="339" key="GridCell.Tab.0.right/0.25.1792.1030@0.25.1792.1030" timestamp="1621188299061" />
+    <state width="1748" height="339" key="GridCell.Tab.0.right/0.25.1792.1033@0.25.1792.1033" timestamp="1621188065026" />
+    <state width="1748" height="137" key="GridCell.Tab.1.bottom" timestamp="1621210260364">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="1748" height="137" key="GridCell.Tab.1.bottom/0.25.1792.1027@0.25.1792.1027" timestamp="1621210260364" />
+    <state width="1748" height="316" key="GridCell.Tab.1.bottom/0.25.1792.1033@0.25.1792.1033" timestamp="1621187893141" />
+    <state width="1748" height="137" key="GridCell.Tab.1.center" timestamp="1621210260364">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="1748" height="137" key="GridCell.Tab.1.center/0.25.1792.1027@0.25.1792.1027" timestamp="1621210260364" />
+    <state width="1748" height="316" key="GridCell.Tab.1.center/0.25.1792.1033@0.25.1792.1033" timestamp="1621187893141" />
+    <state width="1748" height="137" key="GridCell.Tab.1.left" timestamp="1621210260364">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="1748" height="137" key="GridCell.Tab.1.left/0.25.1792.1027@0.25.1792.1027" timestamp="1621210260364" />
+    <state width="1748" height="316" key="GridCell.Tab.1.left/0.25.1792.1033@0.25.1792.1033" timestamp="1621187893140" />
+    <state width="1748" height="137" key="GridCell.Tab.1.right" timestamp="1621210260364">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="1748" height="137" key="GridCell.Tab.1.right/0.25.1792.1027@0.25.1792.1027" timestamp="1621210260364" />
+    <state width="1748" height="316" key="GridCell.Tab.1.right/0.25.1792.1033@0.25.1792.1033" timestamp="1621187893141" />
+    <state x="405" y="176" key="SettingsEditor" timestamp="1621186252517">
+      <screen x="0" y="25" width="1792" height="1033" />
+    </state>
+    <state x="405" y="176" key="SettingsEditor/0.25.1792.1033@0.25.1792.1033" timestamp="1621186252517" />
+    <state x="405" y="176" key="SettingsEditor/0.25.1792.1034@0.25.1792.1034" timestamp="1621186192063" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dsa/impl/AVLTree.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
